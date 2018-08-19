@@ -1,4 +1,41 @@
 body {
-    background-color: white;
-    color: blck;
+	background-color: white;
+	color: black;
+}
+
+div.banner {
+	background-color: black;
+	display: block;
+	margin: 0 auto;
+}
+
+img.banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.bottom {
+	padding: 0.5em;
+	background-color: black;
+	color: white;
+}
+
+a.body:link, a.body:visited {
+	background-color: white;
+	color: black;
+}
+
+a.body:hover, a.body:active {
+	background-color: lightgrey;
+}
+
+
+a.bottom:link, a.bottom:visited {
+	background-color: black;
+	color: white;
+}
+
+a.bottom:hover, a.bottom:active {
+	background-color: darkgrey;
 }
